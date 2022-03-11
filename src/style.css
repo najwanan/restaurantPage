@@ -1,0 +1,38 @@
+
+
+*, 
+*::before, 
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+  --fw-reg:200;
+  --fw-bold:500;
+
+    --clr-light: #FAF9F5;
+    --clr-dark:#0D0D0D;
+    --clr-accent1:#D9A404;
+    --clr-accent2:#D98E04;
+    --clr-accent3:#F2C6A0;
+    --clr-accent4:#D9725B;
+    --clr-accent5: #BF1304;
+ 
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+#content{
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--clr-accent2);
+    
+}
+h1{
+    color: var(--clr-light);
+}

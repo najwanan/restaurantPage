@@ -1,4 +1,11 @@
 
-export function contactInfo() {
+ 
+
+function contactInfo() {
+
+    const 
+    const messageField = document.createElement('textarea')
     
 }
+
+export {contactInfo}

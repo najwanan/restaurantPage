@@ -36,3 +36,9 @@ body{
 h1{
     color: var(--clr-light);
 }
+
+.tabBtns{
+    width: 10em;
+    height: 5em;
+    background-color: var(--clr-accent3);
+}

@@ -4,7 +4,7 @@
 
 import { contactInfo } from './contact.js';
 import { homePage } from './home.js';
-import { menuLoad } from './menu.js'
+import { createMenu } from './menu.js'
 
 import './style.css';
 import {menuBtn, homeBtn, contactBtn} from './header'
@@ -13,9 +13,11 @@ document.body.appendChild(menuBtn);
 document.body.appendChild(homeBtn);
 document.body.appendChild(contactBtn);
 
+
 menuBtn.addEventListener('click', showMenu);
 
-function showMenu(){
+function showMenu() {
+    document.body.appendChild(createMenu);
     console.log('shows the menu')
 }
 

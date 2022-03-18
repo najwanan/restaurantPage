@@ -42,3 +42,9 @@ h1{
     height: 5em;
     background-color: var(--clr-accent3);
 }
+
+.menuWrapper{
+    background-color: var(--clr-accent4);
+    height: 30vh;
+    width: 100vw;
+}

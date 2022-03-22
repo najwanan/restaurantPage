@@ -1,11 +1,12 @@
 
  
+//creates Contact Form
 
-function contactInfo() {
-
-    const 
+const contactForm =() => {
     const messageField = document.createElement('textarea')
     
 }
 
-export {contactInfo}
+
+
+export {contactForm}

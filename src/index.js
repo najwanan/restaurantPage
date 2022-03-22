@@ -2,17 +2,13 @@
 //write tab switching logic and call initial page load logic
 //write initial page load function in seperate module 
 
-import { contactInfo } from './contact.js';
-import { homePage } from './home.js';
-import { createMenu } from './menu.js'
 
-import './style.css';
-import {menuBtn, homeBtn, contactBtn} from './header'
+import { home } from './Components/home.js';
+import './Styles/style.css';
+import { header, button } from './Components/header.js';
+import { loadPage } from './Components/loadPage';
 
-document.body.appendChild(menuBtn);
-document.body.appendChild(homeBtn);
-document.body.appendChild(contactBtn);
-
+document.body.appendChild(loadPage)
 
 menuBtn.addEventListener('click', showMenu);
 

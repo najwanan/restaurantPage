@@ -6,7 +6,7 @@ import { menu } from './menu';
 
 function loadPage() {
 
-    document.body.appendChild(header)
+   
 };
 
 export {loadPage}

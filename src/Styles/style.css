@@ -48,3 +48,9 @@ h1{
     height: 30vh;
     width: 100vw;
 }
+
+#navBar{
+    width: 100vw;
+    background-color: var(--clr-accent4);
+    display: flex;
+}

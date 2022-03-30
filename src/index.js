@@ -10,12 +10,11 @@ import header from './Components/header';
 import createMenu from './Components/menu';
 import content from './Components/home'
 
-const container = document.querySelector('#content')
 
-container.innerHTML = content;
+
+header();
 contactForm();
 createMenu();
-
 
 
 

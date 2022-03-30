@@ -14,6 +14,7 @@ const container = document.querySelector('#content')
 
 container.innerHTML = content;
 contactForm();
+createMenu();
 
 
 

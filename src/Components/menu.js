@@ -5,4 +5,4 @@ function createMenu() {
 
 } 
 
-export{createMenu}
+export default createMenu;

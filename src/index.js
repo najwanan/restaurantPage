@@ -8,13 +8,14 @@ import './Styles/style.css';
 import contactForm from './Components/contact';
 import header from './Components/header';
 import createMenu from './Components/menu';
-import content from './Components/home'
+import homepageContent from './Components/home'
 
 
 
 header();
 contactForm();
 createMenu();
+homepageContent();
 
 
 

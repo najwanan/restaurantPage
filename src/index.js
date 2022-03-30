@@ -13,6 +13,7 @@ import content from './Components/home'
 const container = document.querySelector('#content')
 
 container.innerHTML = content;
+contactForm();
 
 
 

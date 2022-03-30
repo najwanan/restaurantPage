@@ -3,18 +3,17 @@
 //write initial page load function in seperate module 
 
 
-import { home } from './Components/home.js';
+
 import './Styles/style.css';
-import { header, button } from './Components/header.js';
-import { loadPage } from './Components/loadPage';
+import contactForm from './Components/contact';
+import header from './Components/header';
+import createMenu from './Components/menu';
+import content from './Components/home'
 
- document.body.appendChild(loadPage)
+const container = document.querySelector('#content')
 
-menuBtn.addEventListener('click', showMenu);
+container.innerHTML = content;
 
-function showMenu() {
-   document.body.appendChild(createMenu);
-    console.log('shows the menu')
-}
 
-console.log('This may or may not be working')
+
+

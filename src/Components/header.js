@@ -3,11 +3,14 @@ import { home } from "./home";
 
 function header(){
 
-    const headerCard = document.getElementById('#headerCard')
+    const headerCard = document.createElement('div');
+    const button = document.createElement("button")
+    headerCard.appendChild(button)
+    return headerCard;
 
 };
 
 
 
 
-export { header }
+export default header;

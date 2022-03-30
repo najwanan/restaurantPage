@@ -3,10 +3,8 @@
 //creates Contact Form
 
 const contactForm =() => {
-    const messageField = document.createElement('textarea')
+    console.log("the contact form works!")
     
 }
 
-
-
-export {contactForm}
+export default contactForm

@@ -4,7 +4,7 @@
 
 const contactForm =() => {
     const contactFormContent = `
-    <div>
+    <div class = "contactForm">
         <h1>Contact</h1>
         <h3>We'd love to hear from you!</h3>
          <ul>
@@ -15,12 +15,16 @@ const contactForm =() => {
          </ul>
        
          <h3>Have other questions? Tell us what's on your mind</h3>
-        <label>Name</label>
-        <input class = "contactFormInput"><input>
-        <label>E-mail</label>
-        <input class = "contactFormInput"><input>
-        <label></label>
-        <input class = "contactFormInput"><input>
+         <div class="mailForm">
+            <label>Name</label>
+            <input class = "contactFormInput"><input>
+            <label>E-mail</label>
+            <input class = "contactFormInput"><input>
+            <label></label>
+            <input class = "contactFormInput"><input>
+         
+         </div>
+      
     </div>
     
     `;

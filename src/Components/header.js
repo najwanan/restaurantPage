@@ -10,7 +10,7 @@ function header(){
  
     const headerContent = `
     <nav id="navBar">
-    <h1 id= "header">The Sweet Shop<h1>
+    <h1 id="header">The Sweet Shop<h1>
      <button class="tabBtns">Menu</button>
       <button class="tabBtns">Home</button>
        <button class="tabBtns">Contact</button>

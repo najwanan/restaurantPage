@@ -1,7 +1,10 @@
 
 function createMenu() {
 
-  console.log("the menu is loaded")
+  const menuContent = `
+    
+ 
+  `
 
 } 
 

@@ -3,7 +3,7 @@ import { home } from "./home";
 
 function header(){
 
-    console.log("the header is here!")
+
 
     const contentDiv = document.querySelector("#content")
     const headerCard = document.createElement('div');
@@ -11,9 +11,9 @@ function header(){
     const headerContent = `
     <nav id="navBar">
     <h1 id="header">The Sweet Shop<h1>
-     <button class="tabBtns">Menu</button>
-      <button class="tabBtns">Home</button>
-       <button class="tabBtns">Contact</button>
+     <button class="tabBtns" id="menuBtn">Menu</button>
+      <button class="tabBtns" id="homeBtn">Home</button>
+       <button class="tabBtns" id="contactBtn">Contact</button>
     </nav>
     `;
 

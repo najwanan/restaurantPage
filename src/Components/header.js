@@ -3,8 +3,6 @@ import { home } from "./home";
 
 function header(){
 
-
-
     const contentDiv = document.querySelector("#content")
     const headerCard = document.createElement('div');
  

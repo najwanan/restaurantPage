@@ -2,8 +2,6 @@
 //write tab switching logic and call initial page load logic
 //write initial page load function in seperate module 
 
-
-
 import './Styles/style.css';
 import contactForm from './Components/contact';
 import header from './Components/header';

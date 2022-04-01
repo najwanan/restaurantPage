@@ -34,18 +34,20 @@ body{
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--clr-accent2);
- 
-    
-}
-h1{
-    color: var(--clr-light);
 }
 
+h1{
+    color: var(--clr-light);
+ }
+
 .tabBtns{
-    width: 10em;
+    width: 20em;
     height: 5em;
     background-color: var(--clr-accent3);
     margin: 2em;
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
 }
 
 .menuWrapper{

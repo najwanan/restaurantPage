@@ -16,19 +16,26 @@ const homebtn = document.querySelector('#homeBtn')
 
 
 header();
-contactForm();
-createMenu();
+
 homepageContent();
 
-window.onload = function() {
-     let menubtn = document.querySelector("#menuBtn");
- menubtn.addEventListener("click", menuFunc);
-    
+window.onload = function () {
+ let contactbtn = document.querySelector("#contactBtn");
+ let menubtn = document.querySelector("#menuBtn");
+    menubtn.addEventListener("click", createMenu);
+    contactbtn.addEventListener('click', contactForm)
+
  }
    
 function menuFunc() {
-  console.log("here's the menu");
+ createMenu();
 }
+
+function loadContact() {
+     contactForm();
+    
+}
+
 
 
 

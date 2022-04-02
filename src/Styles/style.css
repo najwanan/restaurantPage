@@ -81,3 +81,12 @@ h1{
 .homeWrapper{
     margin-left: 15%;
 }
+
+.mailForm{
+    display:flex;
+    flex-direction: column;
+}
+
+.shopHours{
+    list-style-type: none;
+}

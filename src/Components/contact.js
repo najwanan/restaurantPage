@@ -9,7 +9,7 @@ const contactForm =() => {
         <h1>Contact</h1>
         <br>
         <h3>We'd love to hear from you!</h3>
-         <ul>
+         <ul class="shopHours">
             <li>Sweet Shop Hours</li>
             <li>Monday-Friday 8am -8pm</li>
             <li>Saturday 9am-8pm</li>
@@ -21,12 +21,11 @@ const contactForm =() => {
          <div class="mailForm">
          <br>
             <label>Name</label>
-            <input class = "contactFormInput"><input>
+            <input class ="contactFormInput">
             <label>E-mail</label>
-            <input class = "contactFormInput"><input>
-            <label></label>
-            <input class = "contactFormInput"><input>
-     
+            <input class ="contactFormInput">
+            <label>Your Comments Here</label>
+            <textarea name = "comment" class="contactFormInput" ></textarea>
          </br>
          </div>
       

@@ -29,8 +29,9 @@ body{
 
 #content{
     width: 100vw;
-    height: 90vh;
+    height: auto;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--clr-accent2);
@@ -79,7 +80,9 @@ h1{
 }
 
 .homeWrapper{
-    margin-left: 15%;
+    padding-left: 15%;
+    height: 50vh;
+    background-color: var(--clr-accent4);
 }
 
 .mailForm{
@@ -89,4 +92,13 @@ h1{
 
 .shopHours{
     list-style-type: none;
+}
+
+#homeContent{
+    width:100vw;
+}
+
+#homeTitle{
+    padding-top: 10%;
+
 }

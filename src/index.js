@@ -20,8 +20,6 @@ const homebtn = document.querySelector('#homeBtn')
 
 
 header();
-
-
 contactForm();
 createMenu();
 homepageContent();

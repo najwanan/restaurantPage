@@ -4,7 +4,7 @@ function createMenu() {
     <h1 id="menuTitle">The Sweet Shop Menu</h1>
     <h3>Food<h3>
     <div class="menu">
-      <img src= "./Assets/cupcakes_unsplash.jpg" class="sweetImg"><img>
+      <img src= "" class="sweetImg"><img>
       <img class="sweetImg"><img>
       <h3>Drinks<h3>
       <img class="sweetImg"><img>

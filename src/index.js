@@ -10,12 +10,8 @@ import homepageContent from './Components/home';
 
 //
 
-const menubtn = document.querySelector('#menuBtn')
+
 const homebtn = document.querySelector('#homeBtn')
-
-
-
-
 
 
 
@@ -23,6 +19,16 @@ header();
 contactForm();
 createMenu();
 homepageContent();
+
+window.onload = function() {
+     let menubtn = document.querySelector("#menuBtn");
+ menubtn.addEventListener("click", menuFunc);
+    
+ }
+   
+function menuFunc() {
+  console.log("here's the menu");
+}
 
 
 

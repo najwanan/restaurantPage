@@ -7,7 +7,7 @@ import contactForm from './Components/contact';
 import header from './Components/header';
 import createMenu from './Components/menu';
 import homepageContent from './Components/home';
-
+import footer from './Components/footer';
 //
 
 
@@ -36,6 +36,7 @@ function loadContact() {
     
 }
 
+footer()
 
 
 

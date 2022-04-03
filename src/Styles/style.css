@@ -25,6 +25,7 @@
 body{
     margin:0;
     padding: 0;
+    width: 100vw;
 }
 
 #content{
@@ -52,7 +53,7 @@ h1{
 }
 
 .menuWrapper{
-    background-color: var(--clr-accent4);
+    background-color: var(--clr-dark);
     height: 30vh;
     width: 100vw;
 }
@@ -81,9 +82,17 @@ h1{
 
 .homeWrapper{
     padding-left: 15%;
-    height: 50vh;
-    background-color: var(--clr-accent4);
+    padding-right: 15%;
+    height: 80vh;
+    background-color: var(--clr-accent1);
 }
+
+#homeContent{
+width: 30vw;
+padding-right: 25%;
+color:var(--clr-accent5)
+}
+
 
 .mailForm{
     display:flex;
@@ -101,4 +110,8 @@ h1{
 #homeTitle{
     padding-top: 10%;
 
+}
+
+#footerContainer{
+    height: 15vh;
 }

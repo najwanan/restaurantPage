@@ -1,4 +1,6 @@
 
+const photo = '../Assets/photo'
+
 function createMenu() {
   const menuContent = `
     <h1 id="menuTitle">The Sweet Shop Menu</h1>

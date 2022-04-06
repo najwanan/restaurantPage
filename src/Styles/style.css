@@ -114,4 +114,10 @@ color:var(--clr-accent5)
 
 #footerContainer{
     height: 15vh;
+    display: flex;
+}
+
+#footerContainer h4{
+    padding: 2%;
+    
 }

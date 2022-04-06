@@ -13,9 +13,6 @@ import footer from './Components/footer';
 
 const homebtn = document.querySelector('#homeBtn')
 
-
-
-
 header();
 
 homepageContent();
@@ -36,7 +33,7 @@ function menuFunc() {
 function loadContact() {
     let mainContentDiv = document.querySelector("#content");
     mainContentDiv.style
-     contactForm();
+    contactForm();
     
 }
 

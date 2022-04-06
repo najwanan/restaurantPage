@@ -1,6 +1,9 @@
 
 function footer() {
     
+     const content = document.querySelector("#content");
+     const addFooter = document.createElement("div");
+    
     const footerContent = `
      <div id='footerContainer'>
       
@@ -12,9 +15,7 @@ function footer() {
      </div>
     `;
 
-    const content = document.querySelector('#content')
-    const addFooter = document.createElement('div');
-    addFooter.innerHTML = content;
+    addFooter.innerHTML = footerContent;
     content.appendChild(addFooter)
     
 }

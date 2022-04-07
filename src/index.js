@@ -26,7 +26,6 @@ window.onload = function () {
  }
    
 function menuFunc() {
-    
  createMenu();
 }
 
@@ -34,7 +33,6 @@ function loadContact() {
     let mainContentDiv = document.querySelector("#content");
     mainContentDiv.style
     contactForm();
-    
 }
 
 footer();

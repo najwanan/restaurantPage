@@ -31,7 +31,7 @@ body{
     width: 100vw;
 }
 body p{
-    font-family: var(--ff-secondary);
+    font-family: var(--ff-primary);
 }
 
 #content{
@@ -41,7 +41,7 @@ body p{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--clr-accent2);
+
 }
 
 h1{
@@ -120,13 +120,15 @@ color:var(--clr-light)
 }
 
 #homeTitle{
+    font-size: 3em;
     padding-top: 10%;
-
+    font-family: var(--ff-secondary);
 }
 
 #footerContainer{
     height: 15vh;
     display: flex;
+    background-color: var(--clr-light);
 }
 
 #footerContainer h4{

@@ -43,6 +43,9 @@ body p{
     align-items: center;
 
 }
+#content.active{
+    background-color: aqua;
+}
 
 h1{
     color: var(--clr-dark);
@@ -69,6 +72,7 @@ h1{
 
 #navBar{
     width: 100vw;
+    height: 30vh;
     background-color: var(--clr-light);
     display: flex;
     flex-direction: row;
@@ -126,6 +130,7 @@ color:var(--clr-light)
 }
 
 #footerContainer{
+    width: 100vw;
     height: 15vh;
     display: flex;
     background-color: var(--clr-light);

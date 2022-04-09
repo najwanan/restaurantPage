@@ -26,13 +26,15 @@ window.onload = function () {
  }
    
 function menuFunc() {
- createMenu();
+    let mainContentDiv = document.querySelector('#content')
+    mainContentDiv.classList.add('active')
+    createMenu();
 }
 
 function loadContact() {
-    let mainContentDiv = document.querySelector("#content");
-    mainContentDiv.style
+   
     contactForm();
+ 
 }
 
 footer();

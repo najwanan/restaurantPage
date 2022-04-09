@@ -4,18 +4,20 @@ function createMenu() {
     <h1 id="menuTitle">The Sweet Shop Menu</h1>
     <h3>Food<h3>
     <div class="menu">
-      <img src="../Assets/fresh-strawberry.jpg" class="sweetImg"/>
+     
       <h3>Drinks<h3>
       <div class= ".strawberry"></div>
     </div>
   `;
-  
+  /*const createPhoto = document.createElement('img')
+  createPhoto.src = './tarts_unsplash.jpg'*/
  
   const contentDiv = document.querySelector("#content");
   const menuDiv = document.createElement('div');
 
   menuDiv.innerHTML = menuContent;
   contentDiv.appendChild(menuDiv)
+  contentDiv.appendChild(createPhoto)
 
 } 
 

@@ -4,7 +4,7 @@
 
 const contactForm =() => {
     const contactFormContent = `
-    <div class = "contactForm">
+    <div class = "contactForm content">
 
         <h1>Contact</h1>
         <br>

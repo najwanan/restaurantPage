@@ -13,10 +13,13 @@ import footer from './Components/footer';
 
 const homebtn = document.querySelector('#homeBtn')
 
-header();
+//loads header
 
+header();
+//loads homepage content default content
 homepageContent();
 
+//function forEach tab when it's clicked removes class list and adds new one. 
 window.onload = function () {
  let contactbtn = document.querySelector("#contactBtn");
  let menubtn = document.querySelector("#menuBtn");
@@ -32,7 +35,6 @@ function menuFunc() {
 }
 
 function loadContact() {
-   
     contactForm();
  
 }

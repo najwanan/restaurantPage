@@ -1,11 +1,11 @@
-
+import cupcakes from '../assets/cupcakes_unsplash.jpg';
 function createMenu() {
   const menuContent = `
     <div class = "menuDiv content">
     <h1 id="menuTitle">The Sweet Shop Menu</h1>
     <h3>Food<h3>
     <div class="menu">
-     
+      <img src={cupcakes} />
       <h3>Drinks<h3>
       <div class= ".strawberry"></div>
     </div>

@@ -13,13 +13,14 @@ function createMenu() {
   `;
   /*const createPhoto = document.createElement('img')
   createPhoto.src = './tarts_unsplash.jpg'*/
- 
+  const dessertImg = document.createElement('img')
   const contentDiv = document.querySelector("#content");
   const menuDiv = document.createElement('div');
 
+  dessertImg.setAttribute('src', '../assets/macaroons.jpg')
   menuDiv.innerHTML = menuContent;
   contentDiv.appendChild(menuDiv)
-  contentDiv.appendChild(createPhoto)
+  contentDiv.appendChild(dessertImg)
 
 } 
 

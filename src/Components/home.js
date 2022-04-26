@@ -1,4 +1,4 @@
-
+import { cupcakes } from './imageURLS'
 
 function homepageContent() {
    
@@ -16,6 +16,7 @@ function homepageContent() {
 
    homeDiv.innerHTML = homePageText;
    content.appendChild(homeDiv)
+   content.appendChild(cupcakes)
    
 }
  

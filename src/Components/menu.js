@@ -1,4 +1,4 @@
-import cupcakes from '../assets/cupcakes_unsplash.jpg';
+import { cupcakes } from '../assets/cupcakes_unsplash.jpg';
 function createMenu() {
   const menuContent = `
     <div class = "menuDiv content">
@@ -17,10 +17,10 @@ function createMenu() {
   const contentDiv = document.querySelector("#content");
   const menuDiv = document.createElement('div');
 
-  dessertImg.setAttribute('src', '../assets/macaroons.jpg')
+  //dessertImg.setAttribute('src', '../assets/macaroons.jpg')
   menuDiv.innerHTML = menuContent;
   contentDiv.appendChild(menuDiv)
-  contentDiv.appendChild(dessertImg)
+  contentDiv.appendChild(cupcakes)
 
 } 
 

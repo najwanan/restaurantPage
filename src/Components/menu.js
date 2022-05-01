@@ -1,4 +1,4 @@
-import { cupcakes } from '../assets/cupcakes_unsplash.jpg';
+import cupcakes from './cupcakes_unsplash.jpg';
 function createMenu() {
   const menuContent = `
     <div class = "menuDiv content">
